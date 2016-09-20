@@ -9,3 +9,15 @@ body {
     float: left;
   Margin: 5px 10px 10px 0px;
 }
+.Bean {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:20px;
+  justify-content: center;
+    background-color: #111;
+}
+p{
+    Color: blue;
+    Text-align: left;
+    font-size: 20px;
+}
