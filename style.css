@@ -13,7 +13,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top:20px;
+  justify-content: left;
+}
+.Millenium park {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -200px;
   justify-content: center;
+}
+.empire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:20px;
+  justify-content: right;
 }
 p {
     Color: #6698FF;
@@ -35,7 +47,6 @@ h3 {
 }
 h1 {
     Color: #6698FF;
-    Text-align:left;
     Font-size:40px;
 }
 h2 {
@@ -43,9 +54,31 @@ h2 {
     Text-align:left;
     Font-size:40px;
 }
-.banner{
-    backgorund-image:url();
-    Border:3px;
-        Text-allign:center;
+.banner {
+    background-image:url("http://publicdomainvectors.org/photos/chicago.png");
+    Border: 3px solid blue;
+    Text-align: center;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
