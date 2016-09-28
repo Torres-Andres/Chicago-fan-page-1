@@ -14,18 +14,43 @@ body {
   flex-wrap: wrap;
   margin-top:20px;
   justify-content: left;
+  background-color: #6698FF;
 }
-.Millenium park {
+.Park {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -200px;
+  margin-top: -185px;
   justify-content: center;
+  background-color: #6698FF;
 }
 .empire {
   display: flex;
   flex-wrap: wrap;
   margin-top:20px;
   justify-content: right;
+  background-color: #6698FF;
+}
+.Screen {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -200px;  
+  margin-left: 750px;
+  justify-content: center;
+}
+.wrigley {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -175px;  
+  margin-right: -15px;
+  justify-content: center;
+}
+.zoo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -170px;  
+  margin-right: -750px;
+  justify-content: center;
+    background-color: #6698FF;
 }
 p {
     Color: #6698FF;
@@ -56,7 +81,7 @@ h2 {
 }
 .banner {
     background-image:url("http://publicdomainvectors.org/photos/chicago.png");
-    Border: 3px solid blue;
+    Border: 3px solid #6698FF;
     Text-align: center;
 }
 ul {
